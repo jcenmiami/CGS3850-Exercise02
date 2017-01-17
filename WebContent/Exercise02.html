@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Exercise 02 - CGS 3850</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		var fName = "Juan";
+		//alert("First Name " + fName);
+		
+		var age = 39;
+		//alert("Age " + age);
+		
+		// Concatinate the to variables
+		alert(fName + " is " + age + " years old.");
+		
+		document.write("<p>" + fName + " is " + age + " years old.</p>");
+		
+		// Create an array with 3 names.
+		
+		var namesArray = ['Gabriela', 'Alexandra', 'Sebastian'];
+		
+		document.write("<p>Items in array: " + namesArray + "</p>");
+		
+		// Add one name to the end. 
+		namesArray[namesArray.length] = "Juan";
+		
+		// Add two names to the beginning.
+		namesArray.unshift("Martha","Brunilda");
+		
+		// Show all elements of the array
+		document.write("<p>All the elements of the array: " + namesArray + "</p>");
+		
+		// Show second element of the array. 
+		document.write("<p>Second Element of the array: " + namesArray[1] + "</p>");
+		
+	
+	</script>
+
+</body>
+</html>
